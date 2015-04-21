@@ -1,7 +1,0 @@
-{
-  "name" : "samples",
-  "display_name" : "Samples",
-  "version" : "1.0.0",
-  "type": ["zray"],
-  "logo": "logo.png"
-}

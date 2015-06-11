@@ -1,0 +1,1 @@
+The Samples plugin is an example of how to extend Z-Ray, and includes a basic implementation of the Z-Ray extension API.

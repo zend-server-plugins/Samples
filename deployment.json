@@ -1,7 +1,7 @@
 {
   "name" : "samples",
   "display_name" : "Samples",
-  "version" : "1.0.1",
+  "version" : "1.0.2",
   "type": ["zray"],
   "logo": "logo.png",
   "eula": "LICENSE.txt",

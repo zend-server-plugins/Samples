@@ -102,7 +102,7 @@ $tableParams = array(
 	zray.createPager(storage, jQuery('#<?php echo $params['pagerId']; ?>'));
 	zray.createSearch(storage, jQuery('#<?php echo $params['searchId']; ?>'), maintable);
 	
-	zray.registerDataHandler('samples', 'products', function(extensionData, requestData) {
+	zray.registerDataHandler('Samples', 'products', function(extensionData, requestData) {
 		storage.setData(extensionData);
 	});
 })();

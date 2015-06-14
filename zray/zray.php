@@ -1,8 +1,5 @@
 <?php
-/*********************************
-	Samples Z-Ray Extension
-	Version: 1.00
-**********************************/
+
 namespace ZRaySamplesDemo;
 
 class Samples {
@@ -30,7 +27,7 @@ class Samples {
 
 
 $zraySamples = new Samples();
-$zre = new \ZRayExtension('samples');
+$zre = new \ZRayExtension('Samples');
 
 // enable the extension when this method called
 $zre->setEnabledAfter('Samples::run');

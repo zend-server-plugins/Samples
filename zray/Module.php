@@ -7,7 +7,7 @@ class Module extends \ZRay\ZRayModule {
 	public function config() {
 	    return array(
 	        'extension' => array(
-				'name' => 'samples',
+				'name' => 'Samples',
 			),
 	        // Prevent those default panels from being displayed
 	        'defaultPanels' => array(
@@ -53,6 +53,13 @@ class Module extends \ZRay\ZRayModule {
 	                'resources'     => array(
 	                   'chart' => 'chart.js'
 	                )
+	            ),
+	            'welcome' => array(
+	                'display'       => true,
+	                'alwaysShow'    => true,
+	                'logo'          => 'logo.png',
+	                'menuTitle' 	=> 'Welcome',
+	                'panelTitle'	=> 'Welcome',
 	            ),
 	         )
 	    );
